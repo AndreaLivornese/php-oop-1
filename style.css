@@ -1,0 +1,24 @@
+body{
+    font-family: sans-serif;
+    background-color: gray;
+}
+
+h1{
+    text-align: center;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.square{
+    padding:10px;
+
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px black;
+
+    line-height: 1.3em;
+}

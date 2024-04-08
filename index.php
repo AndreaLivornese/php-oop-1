@@ -5,7 +5,7 @@
 
 $firstMovie= new Movie("Kung fu Panda 4", "Poo", 120, "Commedia, Animazione, Azione, Avventura","Mike Mitchell");
 
-var_dump($firstMovie);
+// var_dump($firstMovie);
 
 ?>
 
@@ -16,12 +16,14 @@ var_dump($firstMovie);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <h1>Movie</h1>
     
-    <div>
+    <div class="center">
         <div class="square">
             <?= $firstMovie->stampa() ?>
         </div>
