@@ -3,7 +3,9 @@
 
 @require_once "Movie.php";
 
+$fisrtMovie= new Movie("Kung fu Panda 4", "Poo", 120, "Commedia, Animazione, Azione, Avventura","Mike Mitchell");
 
+var_dump($fisrtMovie);
 
 ?>
 
