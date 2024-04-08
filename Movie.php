@@ -15,5 +15,12 @@ Class Movie{
 
     }
 
+    function stampa(){
+        return "Il titolo del film è: $this->titolo <br>
+                La sua durata è di $this->durata minuti e il suo Protagonista è $this->mainCharacter. <br>
+                <strong>GENERE</strong>: $this->genere. <br>
+                <strong>Regista:</strong>$this->regista.";
+    }
+
 }
 

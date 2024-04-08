@@ -3,9 +3,9 @@
 
 @require_once "Movie.php";
 
-$fisrtMovie= new Movie("Kung fu Panda 4", "Poo", 120, "Commedia, Animazione, Azione, Avventura","Mike Mitchell");
+$firstMovie= new Movie("Kung fu Panda 4", "Poo", 120, "Commedia, Animazione, Azione, Avventura","Mike Mitchell");
 
-var_dump($fisrtMovie);
+var_dump($firstMovie);
 
 ?>
 
@@ -18,6 +18,14 @@ var_dump($fisrtMovie);
     <title>Document</title>
 </head>
 <body>
+
+    <h1>Movie</h1>
+    
+    <div>
+        <div class="square">
+            <?= $firstMovie->stampa() ?>
+        </div>
+    </div>
     
 </body>
 </html>
